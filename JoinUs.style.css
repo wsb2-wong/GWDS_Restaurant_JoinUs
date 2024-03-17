@@ -1,0 +1,81 @@
+body {
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background-color: #5b7745;
+    color: white;
+  }
+
+  .section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+h1{
+  font-size: larger;
+  color: white;
+}
+
+h2{
+  font-size: xx-large;
+  color: #febd2e;
+}
+
+
+h3, h4{
+    font-size: x-large;
+    color: #febd2e;
+  }
+
+  .btn-primary,
+  .form-check-input[type="radio"]:checked,
+  .form-check-input[type="radio"]:checked:before {
+    background-color: #fb6c55;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #fb6c55;
+    transform: translateY(2px); 
+  }
+  
+
+.footer{
+    color: white;
+    margin: 0%;
+  }
+
+
+  .float-end a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .float-end:hover {
+    color: #febd2e;
+  }
+
+  h10{
+    color: #febd2e;
+    font-size: larger;
+  }
+
+  .scroll-effect {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade-in 1s ease-out forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
