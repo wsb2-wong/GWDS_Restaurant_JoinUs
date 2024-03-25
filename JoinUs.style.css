@@ -93,3 +93,12 @@ h3, h4{
       transform: translateY(0);
     }
   }
+
+
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 10%; /* Adjust the width as needed */
+    height: 5%
+  }
+}
