@@ -30,7 +30,7 @@ h3, h4{
     color: #febd2e;
   }
 
-  h1,h2,h3,h4{
+  h1,h2,h3,h4,h10{
     font-family: "cooper-black-std", serif;
     font-weight: 400;
     font-style: normal;
@@ -38,7 +38,8 @@ h3, h4{
   }
 
   p,
-  .col-form-label {
+  .col-form-label,
+  .nav-link {
     font-family: "baileywick-jf-gothic", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -81,6 +82,10 @@ h3, h4{
     opacity: 0;
     transform: translateY(20px);
     animation: fade-in 1s ease-out forwards;
+  }
+  
+  ul{
+    list-style: none;
   }
   
   @keyframes fade-in {
