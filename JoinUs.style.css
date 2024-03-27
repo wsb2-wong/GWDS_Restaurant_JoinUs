@@ -39,7 +39,10 @@ h3, h4{
 
   p,
   .col-form-label,
-  .nav-link {
+  .nav-link,
+  .form-check .form-check-label,
+  .submit .btn,
+  .form .form-control {
     font-family: "baileywick-jf-gothic", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -87,7 +90,11 @@ h3, h4{
   ul{
     list-style: none;
   }
-  
+
+  .submit .btn{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
   @keyframes fade-in {
     0% {
       opacity: 0;
@@ -101,9 +108,20 @@ h3, h4{
 
 
 
+  nav .navbar-brand img {
+    width: 70px; /* Adjust the width as needed */
+    height: 70px; /* Adjust the height as needed */
+  }
+  
+  @media (max-width: 576px) {
+    nav .navbar-brand img {
+      width: 70px; /* Keep the original width */
+      height: 70px; /* Keep the original height */
+    }
+  }
+
 @media (max-width: 576px) {
-  .navbar-brand img {
-    width: 10%; /* Adjust the width as needed */
-    height: 5%
+  .navbar-brand2 img {
+    width: 50%; /* Adjust the width as needed */
   }
 }
