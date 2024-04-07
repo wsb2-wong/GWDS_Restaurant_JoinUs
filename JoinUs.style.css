@@ -7,6 +7,41 @@ body {
     color: white;
   }
 
+  .navbar-brand :hover{
+    transform: scale(1.1);
+    cursor: grab;
+    }
+
+    .navbar-brand2 .img {
+      transition: transform 1s ease;
+    }
+    
+    .navbar-brand2 img:hover {
+      transform: scale(1.1);
+    }
+
+
+
+   .opening h1:hover, .emplopyee:hover, .volunteer:hover, .text:hover{
+    text-shadow: 2px 2px 4px  #38452ed5;
+    cursor: pointer;
+  }
+
+  .nav-item a{
+    color: white;
+  }
+
+  .nav-item a:hover{
+    color: white;
+  }
+
+  .nav-item:hover{
+    color: white;
+    text-shadow: 2px 2px 4px  #38452ed5;
+    cursor: pointer;
+  }
+
+
   .section-one{
     display: flex;
     justify-content: center;
@@ -37,16 +72,21 @@ h3, h4{
     font-size: x-large;
   }
 
+
+
   p,
   .col-form-label,
   .nav-link,
   .form-check .form-check-label,
   .submit .btn,
-  .form .form-control {
+  .form .form-control
+  ,.donation,
+  .nav .nav-item a {
     font-family: "baileywick-jf-gothic", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
+  
 
   .btn-primary,
   .form-check-input[type="radio"]:checked,
@@ -58,6 +98,27 @@ h3, h4{
   .btn-primary:hover {
     background-color: #fb6c55;
     transform: translateY(2px); 
+  }
+  
+  .donation {
+    text-align: center;
+    font-size: large;
+  }
+  
+  @media (max-width: 767px) {
+    .donation {
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .donation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
   
 
