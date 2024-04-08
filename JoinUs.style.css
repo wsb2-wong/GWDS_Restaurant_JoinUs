@@ -27,18 +27,21 @@ body {
     cursor: pointer;
   }
 
-  .nav-item a{
+  .nav-item1 a{
     color: white;
   }
 
-  .nav-item a:hover{
+  .nav-item1 a:hover{
     color: white;
+    cursor: grab;
   }
 
-  .nav-item:hover{
+  .nav-item1:hover{
     color: white;
     text-shadow: 2px 2px 4px  #38452ed5;
-    cursor: pointer;
+    border:3px solid #febd2e;
+    border-radius: 2%;
+    box-shadow:2px 2px 4px  #38452ed5 ;
   }
 
 
